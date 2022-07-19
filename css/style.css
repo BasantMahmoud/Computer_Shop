@@ -1,0 +1,46 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* body */
+body{
+    background-color: rgb(53, 42, 121);
+    width: auto;
+}
+/* navbar */
+.nav-link{
+    color: #fff;
+}
+
+/* content */
+.content{
+    margin-left: 40px;
+}
+.card-title{
+    font-size: 30px;
+    color: rgb(240, 233, 224);
+}
+
+.card-text{
+    font-size: 20px;
+    margin-top: 20px;
+    width: 500px;
+    line-height: 40px;
+}
+
+.btn{
+    margin-top: 10px;
+    font-size: 20px;
+   margin-bottom: 7px;
+}
+.images{
+    margin-left: 23%;
+    margin-top: 30px;
+    transition: 0.2s;
+    cursor: pointer;
+}
+.images img:hover{
+    transform: scale(1.2);
+  
+}
